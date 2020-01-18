@@ -13,6 +13,10 @@ Vue.use(ElementUI)
 import './assets/fonts/iconfont.css'
 // 导入全局样式表
 import './assets/css/global.css'
+// 导入插件
+import ZkTable from 'vue-table-with-tree-grid'
+// 使用插件
+Vue.use(ZkTable)
 
 // 导入axios
 import axios from 'axios'
