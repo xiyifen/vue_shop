@@ -3,11 +3,11 @@ import App from './App.vue'
 import router from './router'
 
 // 手动配置elementUI
-import ElementUI from 'element-ui'
-import 'element-ui/lib/theme-chalk/index.css'
-Vue.use(ElementUI)
+// import ElementUI from 'element-ui'
+// import 'element-ui/lib/theme-chalk/index.css'
+// Vue.use(ElementUI)
 
-// import './plugins/element.js'
+import './plugins/element.js'
 
 // 引入字体图标
 import './assets/fonts/iconfont.css'
